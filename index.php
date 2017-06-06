@@ -1,86 +1,53 @@
 
 <?php include 'vistas/encabezado.php' ?>
 <body>
-<!-- <figure class="logo">
-  <img src="img/consedif.png" alt="" class="img-responsive">
-</figure> -->
 
-<div class="container">
-  <div class="row">
-    <!-- Carousel -->
-      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-          <div class="item active">
-            <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="First slide">
-                    <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                              <span>Welcome to <strong>LOREM IPSUM</strong></span>
-                            </h2>
-                            <br>
-                            <h3>
-                              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br>
-                            <div class="">
-                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div><!-- /header-text -->
+<div class="contenlogocontacto">
+
+  <figure class="logo pull-left">
+  <a href="index.php"><img src="img/consedif.png" alt="" class="img-responsive"></a>
+</figure>
+
+<a href="vistas/contacto.php" class="boton"><button type="button" class="btn btn-danger pull-right">Contactar</button></a>
+</div>
+
+<nav>
+<ul>
+  <li class="select"><a href="index.php">INDEX</a></li>
+  <li><a href="">NOSOTROS</a></li>
+  <li><a href="">SERVICIOS</a></li>
+  <li><a href="">CONTACTO</a></li>
+</ul>
+</nav>
+
+<div class="banner">
+  <!-- <div class="fondo"> -->
+    <div class="fondo2">
+      <p> 
+      <h1>Desarrollando proyectos de alto estandar tecnológico por todos lados</h1>
+      <!-- <h3>CONSTRUCCIÓN, REHABILITACIONES</h3> -->
+       <p class="textob">En el desarrollo de todos nuestros proyectos
+         tenemos siempre en cuenta el cumplimiento
+         de las directrices de calidad y medioambientales.</p>
+      </p>
+    </div>
+  <!-- </div> -->
+</div>
+
+<div class="content bg-info">
+  <div class="section uno">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-6 unotexto">
+            <h2 class="text-primary">Inspírate para crear el espacio que siempre soñaste</h2>
+            <p class="lead">Utiliza los servicios que CONSTRUCTORA CONSEDIF te ofrece para tomar las mejores decisiones de acabados y protección. ¡contacta a CONSTRUCTORA CONSEDIF para crear el espacio de tus sueños! </p>
+            <a href="vistas/contacto.php" class="boton"><button type="button" class="btn btn-danger pull-right">Contactar</button></a>
           </div>
-          <div class="item">
-            <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Second slide">
-            <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to LOREM IPSUM</span>
-                            </h2>
-                            <br>
-                            <h3>
-                              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br>
-                            <div class="">
-                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div><!-- /header-text -->
-          </div>
-          <div class="item">
-            <img src="http://unsplash.s3.amazonaws.com/batch%209/barcelona-boardwalk.jpg" alt="Third slide">
-            <!-- Static Header -->
-                    <div class="header-text hidden-xs">
-                        <div class="col-md-12 text-center">
-                            <h2>
-                                <span>Welcome to LOREM IPSUM</span>
-                            </h2>
-                            <br>
-                            <h3>
-                              <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-                            </h3>
-                            <br>
-                            <div class="">
-                                <a class="btn btn-theme btn-sm btn-min-block" href="#">Login</a><a class="btn btn-theme btn-sm btn-min-block" href="#">Register</a></div>
-                        </div>
-                    </div><!-- /header-text -->
-          </div>
+          <div class="col-md-6">
+            <img src="img/inte.jpg" class="img-responsive"> </div>
+        </div>
       </div>
-      <!-- Controls -->
-      <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-    </div><!-- /carousel -->
-  </div>
+    </div>
 </div>
  
 <?php include 'vistas/pie.php' ?>
