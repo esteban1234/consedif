@@ -4,7 +4,7 @@
 	<div class="contenlogocontacto">
 
   <figure class="logo pull-left">
-  <a href="index.php"><img src="../img/consedif.png" alt="" class="img-responsive"></a>
+  <a href="index.php"><img src="../img/condesif2.png" alt="" class="img-responsive"></a>
 </figure>
 
 <a href="contacto.php" class="boton"><button type="button" class="btn btn-danger pull-right">Contactar</button></a>
