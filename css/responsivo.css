@@ -1,0 +1,1049 @@
+@media screen and (max-width: 480px){
+  /*************DISEÑO INDEX*******************/
+  .contenlogocontacto .boton{
+    display: none;
+  }
+
+  .contenlogocontacto figure{
+    width: 80%;
+    float: none !important;
+    margin: auto;
+  }
+
+  .menu{
+    overflow: hidden;
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu i{
+    float: left;
+  }
+
+  .menu p{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu i, .menu p{
+    margin: 0px;
+    color: #fff;
+  }
+
+  #close{
+    margin-left: -300px;
+    color: #fff;
+  }
+
+
+
+  nav{
+    width: 80%;
+    overflow: hidden;
+    margin-left: -100%;
+    height: 0px;
+  }
+
+  nav ul{
+    /*border: 2px solid green;*/
+    width: 100%;
+    float: left;
+  }
+
+  nav ul li{
+    /*border: 2px solid yellow;*/
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding:3% 0px;
+  }
+
+  nav ul li a{
+    padding: 0px;
+    font-size: 18px;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .banner div{
+    width: 95%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .banner div > h1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: justify;
+  }
+
+  .textob{
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .content{
+    height: 100%;
+  }
+
+  .content .section{
+    height: 100%;
+  }
+
+  /*.unotexto{
+    border: 2px solid blue;
+  }*/
+
+  .text-primary{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .lead{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+  .unotexto .boton{
+    display: none;
+  }
+
+  .izqui, .dere{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .izquiuno{
+    margin-top: 10px;
+  }
+
+  .izquiuno h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+  }
+
+  .izquiuno p{
+    text-align: justify;
+    padding: 5px;
+  }
+
+  .izquidos{
+    height: 100%;
+  }
+
+  .dere div{
+    margin: 10% 0px;
+  }
+
+  .dere div > h2{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .dere div > p{
+    text-align: justify;
+  }
+
+  .bannerinfo{
+    height: 100%;
+  }
+  .bannerinfo p{
+    padding: 5px;
+  }
+
+  .bannerinfo h2{
+    font-size: 30px;
+  }
+  /*************END INDEX*********************/
+
+  /************DISEÑO NOSOTROS***************/
+  h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10% !important;
+  }
+
+  hr{
+    width: 50%;
+  }
+
+  h2{
+    margin-top: 10% !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .texton{
+    width: 100%;
+    text-align: justify;
+    padding: 5px 20px;
+    font-size: 18px;
+  }
+
+  .vision{
+    width: 20%;
+  }
+
+  .centrar{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .vision, .h2-center{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .vision{
+    margin-top: 10px;
+  }
+
+  .h2-center{
+    vertical-align: top;
+    padding: 0px 15px;
+  }
+
+  .text-info{
+    text-align: justify;
+    margin-bottom: 10%;
+    color: #000;
+    font-size: 18px;
+  }
+
+  .contenporque h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-center{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /*************END NOSOTROS*****************/
+
+  /************DISEÑO SERVICIOS***************/
+  .contenserv{
+  }
+
+  .contenimagen, .contenimagen2{
+    float: none !important;
+    margin: auto;
+  }
+
+  .contenimagen img, .contenimagen2 img{
+    width: 60%;
+    margin: auto;
+  }
+
+  .contenepuntos, .contenepuntos2{
+    float: none !important;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0px;
+  }
+
+  .puntouno{
+    margin: 25px 0px;
+  }
+
+  .img-servicio{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+  }
+
+  .text-title-serv{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-descrip-serv{
+    text-align: justify;
+  }
+  /*************END SERVICIOS*****************/
+
+  /************DISEÑO CONTACTO***************/
+
+  .img-contacto{
+    margin: 2% auto;
+    width: 30%;
+
+  }
+
+  .text-title-contacto{
+    text-align: center;
+  }
+
+  .text-contacto-dir{
+    font-size: 12px;
+  }
+  /*************END CONTACTO*****************/
+
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 95%;
+    margin-bottom: 2%;
+    font-size: 18px;
+  }
+
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+  /*************DISEÑO INDEX*******************/
+  .contenlogocontacto .boton{
+    display: none;
+  }
+
+  .contenlogocontacto figure{
+    width: 80%;
+    float: none !important;
+    margin: auto;
+  }
+
+  .menu{
+    overflow: hidden;
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu i{
+    float: left;
+  }
+
+  .menu p{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu i, .menu p{
+    margin: 0px;
+    color: #fff;
+  }
+
+  #close{
+    margin-left: -300px;
+    color: #fff;
+  }
+
+
+
+  nav{
+    width: 80%;
+    overflow: hidden;
+    margin-left: -100%;
+    height: 0px;
+  }
+
+  nav ul{
+    /*border: 2px solid green;*/
+    width: 100%;
+    float: left;
+  }
+
+  nav ul li{
+    /*border: 2px solid yellow;*/
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding:3% 0px;
+  }
+
+  nav ul li a{
+    padding: 0px;
+    font-size: 18px;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .banner div{
+    width: 95%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .banner div > h1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: justify;
+  }
+
+  .textob{
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .content{
+    height: 100%;
+  }
+
+  .content .section{
+    height: 100%;
+  }
+
+  /*.unotexto{
+    border: 2px solid blue;
+  }*/
+
+  .text-primary{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .lead{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+  .unotexto .boton{
+    display: none;
+  }
+
+  .izqui, .dere{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .izquiuno{
+    margin-top: 10px;
+  }
+
+  .izquiuno h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+  }
+
+  .izquiuno p{
+    text-align: justify;
+    padding: 5px;
+  }
+
+  .izquidos{
+    height: 100%;
+  }
+
+  .dere div{
+    margin: 6% 0px;
+  }
+
+  .dere div > img{
+    margin: auto;
+  }
+
+  .dere div > h2{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .dere div > p{
+    text-align: justify;
+  }
+
+
+  .dere div > .centrar{
+    text-align: center;
+  }
+
+  .bannerinfo{
+    height: 100%;
+  }
+  .bannerinfo p{
+    padding: 5px;
+  }
+
+  .bannerinfo h2{
+    font-size: 30px;
+  }
+  /*************END INDEX*********************/
+
+  /************DISEÑO NOSOTROS***************/
+  h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10% !important;
+  }
+
+  hr{
+    width: 50%;
+  }
+
+  h2{
+    margin-top: 10% !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .texton{
+    width: 100%;
+    text-align: justify;
+    padding: 5px 20px;
+    font-size: 18px;
+  }
+
+  .vision{
+    width: 20%;
+  }
+
+  .centrar{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .vision, .h2-center{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .vision{
+    margin-top: 10px;
+  }
+
+  .h2-center{
+    vertical-align: top;
+    padding: 0px 15px;
+  }
+
+  .text-info{
+    text-align: justify;
+    margin-bottom: 10%;
+    color: #000;
+    font-size: 18px;
+  }
+
+  .contenporque h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-center{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /*************END NOSOTROS*****************/
+
+  /************DISEÑO SERVICIOS***************/
+  .contenserv{
+  }
+
+  .contenimagen, .contenimagen2{
+    float: none !important;
+    margin: auto;
+  }
+
+  .contenimagen img, .contenimagen2 img{
+    width: 60%;
+    margin: auto;
+  }
+
+  .contenepuntos, .contenepuntos2{
+    float: none !important;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0px;
+  }
+
+  .puntouno{
+    margin: 25px 0px;
+  }
+
+  .img-servicio{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+  }
+
+  .text-title-serv{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-descrip-serv{
+    text-align: justify;
+  }
+  /*************END SERVICIOS*****************/
+
+  /************DISEÑO CONTACTO***************/
+
+  .img-contacto{
+    margin: 2% auto;
+    width: 30%;
+
+  }
+
+  .text-title-contacto{
+    text-align: center;
+  }
+
+  .text-contacto-dir{
+    font-size: 12px;
+  }
+  /*************END CONTACTO*****************/
+
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 95%;
+    margin-bottom: 2%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+  /*************DISEÑO INDEX*******************/
+  .contenlogocontacto .boton{
+    display: none;
+  }
+
+  .contenlogocontacto figure{
+    width: 80%;
+    float: none !important;
+    margin: auto;
+  }
+
+  .menu{
+    overflow: hidden;
+    padding: 1% 10%;
+    background-color: rgba(0,0,0, 0.8);
+    cursor: pointer;
+    display: block;
+  }
+
+  .menu i{
+    float: left;
+  }
+
+  .menu p{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .menu i, .menu p{
+    margin: 0px;
+    color: #fff;
+  }
+
+  #close{
+    margin-left: -300px;
+    color: #fff;
+  }
+
+
+
+  nav{
+    width: 80%;
+    overflow: hidden;
+    margin-left: -100%;
+    height: 0px;
+  }
+
+  nav ul{
+    /*border: 2px solid green;*/
+    width: 100%;
+    float: left;
+  }
+
+  nav ul li{
+    /*border: 2px solid yellow;*/
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    padding:3% 0px;
+  }
+
+  nav ul li a{
+    padding: 0px;
+    font-size: 18px;
+  }
+
+  .banner{
+    height: 100%;
+  }
+
+  .banner div{
+    width: 95%;
+    margin: auto;
+    height: 100%;
+  }
+
+  .banner div > h1{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5%;
+    text-align: justify;
+  }
+
+  .textob{
+    text-align: justify;
+    font-size: 16px;
+  }
+
+  .content{
+    height: 100%;
+  }
+
+  .content .section{
+    height: 100%;
+  }
+
+  /*.unotexto{
+    border: 2px solid blue;
+  }*/
+
+  .text-primary{
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+  }
+
+  .lead{
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10%;
+  }
+
+  .unotexto .boton{
+    display: none;
+  }
+
+  .izqui, .dere{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .izquiuno{
+    margin-top: 10px;
+  }
+
+  .izquiuno h1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+  }
+
+  .izquiuno p{
+    text-align: justify;
+    padding: 5px;
+  }
+
+  .izquidos{
+    height: 100%;
+  }
+
+  .dere div{
+    margin: 5% 0px;
+  }
+
+  .dere div > img{
+    margin: auto;
+  }
+
+  .dere div > h2{
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .dere div > p{
+    text-align: justify;
+  }
+
+  .dere div > .centrar{
+    text-align: center;
+  }
+
+  .bannerinfo{
+    height: 100%;
+  }
+  .bannerinfo p{
+    padding: 5px;
+  }
+
+  .bannerinfo h2{
+    font-size: 30px;
+  }
+  /*************END INDEX*********************/
+
+  /************DISEÑO NOSOTROS***************/
+  h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10% !important;
+  }
+
+  hr{
+    width: 50%;
+  }
+
+  h2{
+    margin-top: 10% !important;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .texton{
+    width: 100%;
+    text-align: justify;
+    padding: 5px 20px;
+    font-size: 18px;
+  }
+
+  .vision{
+    width: 20%;
+  }
+
+  .centrar{
+    text-align: center;
+  }
+
+  .text-left{
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .vision, .h2-center{
+    display: inline-block;
+    text-align: center;
+  }
+
+  .vision{
+    margin-top: 10px;
+  }
+
+  .h2-center{
+    vertical-align: top;
+    padding: 0px 15px;
+  }
+
+  .text-info{
+    text-align: justify;
+    margin-bottom: 10%;
+    color: #000;
+    font-size: 18px;
+  }
+
+  .contenporque h1{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-center{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  /*************END NOSOTROS*****************/
+
+  /************DISEÑO SERVICIOS***************/
+  .contenserv{
+  }
+
+  .contenimagen, .contenimagen2{
+    float: none !important;
+    margin: auto;
+  }
+
+  .contenimagen img, .contenimagen2 img{
+    width: 60%;
+    margin: auto;
+  }
+
+  .contenepuntos, .contenepuntos2{
+    float: none !important;
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 0px;
+  }
+
+  .puntouno{
+    margin: 25px 0px;
+  }
+
+  .img-servicio{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+  }
+
+  .text-title-serv{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text-descrip-serv{
+    text-align: center;
+  }
+  /*************END SERVICIOS*****************/
+
+  /************DISEÑO CONTACTO***************/
+
+  .img-contacto{
+    margin: 2% auto;
+    width: 30%;
+
+  }
+
+  .text-title-contacto{
+    text-align: center;
+  }
+
+  .text-contacto-dir{
+    font-size: 12px;
+  }
+  /*************END CONTACTO*****************/
+
+
+  footer{
+    height: 100%;
+  }
+
+  footer p{
+    width: 95%;
+    margin-bottom: 2%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+  /*************DISEÑO INDEX*******************/
+  /*nav{
+    border: 2px solid red;
+  }*/
+
+  nav ul{
+    width: 90%;
+    margin: auto;
+  }
+
+  .fondo2{
+    width: 90%;
+    margin: auto;
+  }
+
+  .unotexto{
+    margin-bottom: 5%;
+  }
+
+  .izqui{
+    width: 80%;
+    margin: 5% auto;
+    float: none;
+  }
+
+  .dere{
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+
+
+
+  .dere div > h2{
+    text-align: center;
+  }
+
+  .dere div > p{
+    text-align: justify;
+  }
+  /*************END INDEX*********************/
+
+  /************DISEÑO SERVICIOS***************/
+  .contenserv{
+  }
+
+  .contenimagen, .contenimagen2{
+    margin: 10% auto;
+    width: 40%;
+  }
+
+  .contenimagen img, .contenimagen2 img{
+    width: 100%;
+    margin: auto;
+  }
+
+  /*************END SERVICIOS*****************/
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+
+
+  nav ul{
+    width: 70%;
+    margin: auto;
+  }
+
+  .seccion{
+    padding: 0px;
+  }
+
+  .izqui{
+    width: 30%;
+  }
+
+  .dere{
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  nav ul{
+    width: 70%;
+    margin: auto;
+  }
+
+  .seccion{
+    padding: 0px;
+  }
+
+  .izqui{
+    width: 25%;
+  }
+
+  .dere{
+    width: 60%;
+  }
+ }
+
+@media screen and (min-width: 1367px) { }

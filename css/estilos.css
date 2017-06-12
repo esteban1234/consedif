@@ -18,6 +18,11 @@
   margin-right: 5%;
   margin-top: 2%;
 }
+
+.menu{
+  display: none;
+}
+
 nav {
   clear: both;
   /*border: 2px red solid;*/
@@ -209,9 +214,9 @@ footer p{
 
 /*------------------nosotros----------*/
 hr {
-  border: 3px solid #666; 
-  border-radius: 300px/10px; 
-  height: 0px; 
+  border: 3px solid #666;
+  border-radius: 300px/10px;
+  height: 0px;
   /*text-align: center; */
   margin: 0 auto;
   width: 20%;
@@ -286,7 +291,7 @@ hr {
 }
 /*-----------------contacto-----------------*/
 .contact{
-     
+
      width: 90%;
      margin:0 auto;
      margin-top: 5%;
@@ -356,7 +361,7 @@ hr {
     max-height: 200px;
     max-width: 100%;
   }
-  
+
 /* Generic Button Styles */
 
   .button{
